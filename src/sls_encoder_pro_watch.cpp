@@ -107,6 +107,5 @@ void setup()
 
 void loop()
 {
-    lv_timer_handler();
-    delay(1);
+    vTaskDelay(pdMS_TO_TICKS(lv_timer_handler()));
 }
