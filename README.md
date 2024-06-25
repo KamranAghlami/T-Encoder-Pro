@@ -1,8 +1,6 @@
 # T-Encoder-Pro
 An example project for LILYGO's [T-Encoder-Pro](https://www.lilygo.cc/products/t-encoder-plus) using the [PlatformIO](https://platformio.org) IDE, [Arduino](https://www.arduino.cc/) framework, and [LVGL](https://lvgl.io/) graphics library.
 
-Got your board at hand? flash online via [ESP Web Flasher](https://kamranaghlami.github.io/ESPWebFlasher/?repo=KamranAghlami/T-Encoder-Pro).
+**Note 1:** The code base at this state is adapted from nikthefix's [Lilygo_Support_T_Encoder_Pro_Smart_Watch](https://github.com/nikthefix/Lilygo_Support_T_Encoder_Pro_Smart_Watch) example, the plan is to provice a cleaner starting point just like my [T-Display-S3](https://github.com/KamranAghlami/T-Display-S3) project, hopefully soon.
 
-**Note:** This example utilizes Espressif's [Storage API](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/storage/index.html). If you're building from source don't forget to build and upload the filesystem image as well before the first use.
-
-![docs/example.gif](docs/example.gif?raw=true)
+**Note 2:** I've noticed some flash corruptions when uploading, if this happened you need to enter boot mode before upload and restart the board afterwards. The boot button is connected to the encoders click button, so you should press the display and while holding it power cyle the device, either by pressing the reset or re-plugging the USB cable.
