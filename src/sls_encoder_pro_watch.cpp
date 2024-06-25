@@ -3,7 +3,7 @@
 #include "TouchDrvCHSC5816.hpp"
 #include "lvgl.h"
 #include "SPI.h"
-#include "ui.h"
+#include "ui/ui.h"
 #include "pins_config.h"
 
 TouchDrvCHSC5816 touch;
